@@ -1,6 +1,10 @@
-.projects-horizontal {
-  color: #313437;
-  background-color: #fff;
+@media (min-width: 1200px) {
+  .projects-horizontal {
+    color: #313437;
+    background-color: #fff;
+    padding: 180px;
+    padding-top: 15px;
+  }
 }
 
 .projects-horizontal p {
