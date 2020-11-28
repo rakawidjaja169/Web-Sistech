@@ -958,13 +958,18 @@ body.hidden-scroll {
 
 table {
     border-collapse: collapse;
-    width: 100%;
-    color: #d96459;
-    font-family: monospace;
-    font-size: 25px;
+    color: #56585b;
+    font-family: 'Lora', serif;
+    font-size: 14px;
     text-align: left;
+    margin: 90px;
 }
 th {
     background-color: #d96459;
     color: white;
+    padding: 10px;
+}
+
+.profilepicture {
+  margin: auto;
 }

@@ -31,7 +31,7 @@
         </div>
     </nav>
 
-    <img src="../img/dosen/pujianto_yugopuspito_tn.jpg" class="profilepicture">
+    <img src="../img/dosen/thompson_s_ngoen_tn.jpg" class="profilepicture">
     
     <table>
         
@@ -54,7 +54,7 @@
         $conn = mysqli_connect($servername, $username, $password, $dbname);
         
        
-        $sql = "SELECT ID, Name, S1, S2, S3, Disciplines from List_Dosen WHERE ID = 1";
+        $sql = "SELECT ID, Name, S1, S2, S3, Disciplines from List_Dosen WHERE ID = 4";
         $result = mysqli_query($conn, $sql);
 
         if($result -> num_rows > 0) {
