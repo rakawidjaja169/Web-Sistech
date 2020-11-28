@@ -952,3 +952,6 @@ body.hidden-scroll {
   max-width: 100%;
 }
 
+.photo-gallery {
+  margin-top: 30px;
+}
